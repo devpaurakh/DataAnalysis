@@ -4,5 +4,5 @@ d = pd.DataFrame(dis)
 
 # Save the dataframe to a csv file
 
-d.to_csv("data2.csv", index=False, header=["x","y","z"]) # index=False is used to avoid writing row numbers in the csv file
+d.to_csv("data2.csv", index=False, header=["a","b","c"]) # index=False is used to avoid writing row numbers in the csv file
 
